@@ -1,1 +1,24 @@
-// code your solution here
+// code your solution he
+//function saturdayFun() {
+    //console.log('This Saturday, I want to');
+//}
+function saturdayFun(activity = 'roller-skate'){
+    return (`This Saturday, I want to ${activity}!`)
+}
+function mondayWork(activity = 'go to the office'){
+    return (`This Monday, I will ${activity}.`)
+}
+
+function wrapAdjective(special ="*"){
+    return function(happy = "special"){
+        return `You are ${special}${happy}${special}!`
+
+    }
+   
+        
+    
+    
+
+
+    
+}
